@@ -1,0 +1,133 @@
+body {
+    font-family: 'Popins', sans-serif;
+    background-color: rgb(140, 82, 255);
+}
+
+.container {
+    max-width: 1000px;
+    max-height: 550px;
+    margin: 20px auto;
+}
+
+.calculator {
+    width: 310px;
+    height: 520px;
+    background-color: #010202;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow:  0 4px 8px rgba(133, 127, 127, 0.2), 0 6px 20px 0 rgba(178, 169, 169, 0.19);
+    /* background-image: url(img/Pagani\ Huayra.jpg); */
+    background-size: cover;
+}
+
+.result {
+    height: 120px;
+}
+
+.history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+.output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+    background-image: url(img/Pagani\ Huayra.jpg);
+    background-size: cover;
+    background-position: 0 -300px;
+    color: #eaedef;
+}
+
+.keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 13px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty {
+    background-color: #2d2d2900;
+    color: #eaedef;
+}
+
+.operator {
+    background-color: lightgrey;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, n.number:active {
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 13px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #181716;
+} 
+
+.number {
+    font-size: 20px;
+    background-color: #2d2d29e9;
+    color: #eaedef;
+}
+
+
+
+.operator:nth-child(4) {
+    font-size: 20px;
+    background-color: #ffd900;
+    color: #eaedef;
+}
+
+.operator:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffd900;
+    color: #eaedef;
+}
+
+.operator:nth-child(12) {
+    font-size: 20px;
+    background-color: #ffd900;
+    color: #eaedef;
+}
+.operator:nth-child(16) {
+    font-size: 20px;
+    background-color: #ffd900;
+    color: #eaedef;
+}
+.operator:nth-child(20) {
+    font-size: 20px;
+    background-color: #ffd900;
+    color: #eaedef;
+}
